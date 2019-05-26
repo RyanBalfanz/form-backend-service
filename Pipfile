@@ -18,5 +18,7 @@ whitenoise = "*"
 python_version = "3.7"
 
 [scripts]
+makemigrations = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
 shell = "python manage.py shell_plus"
 test = "python manage.py test"
