@@ -15,6 +15,7 @@ DEBUG = env('DEBUG')
 
 PROJECT_APPS = [
     'users.apps.UsersConfig',
+    'forms.apps.FormsConfig',
 ]
 
 INSTALLED_APPS += [
