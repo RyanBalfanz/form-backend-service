@@ -1,0 +1,27 @@
+{
+  "addons": [
+    "mailtrap",
+    "newrelic",
+    "heroku-postgresql",
+    "heroku-redis"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "SECRET_KEY": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "form-backend-service",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
