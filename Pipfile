@@ -13,6 +13,7 @@ psycopg2-binary = "*"
 django-environ = "*"
 django-extensions = "*"
 whitenoise = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"
