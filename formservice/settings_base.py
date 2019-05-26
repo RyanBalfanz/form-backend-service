@@ -13,7 +13,9 @@ DEBUG = env('DEBUG')
 
 # Application definition
 
-PROJECT_APPS = []
+PROJECT_APPS = [
+    'users.apps.UsersConfig',
+]
 
 INSTALLED_APPS += [
     'django_extensions',
@@ -42,6 +44,11 @@ DATABASES = {
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Custom User model
+# https://docs.djangoproject.com/en/2.2/topics/auth/customizing/#substituting-a-custom-user-model
+
+AUTH_USER_MODEL = 'users.User'
 
 EMAIL_CONFIG = env.email_url('EMAIL_URL')
 
