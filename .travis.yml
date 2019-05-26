@@ -1,0 +1,3 @@
+language: python
+install: pipenv install
+script: pipenv run test
