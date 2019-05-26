@@ -10,6 +10,7 @@ django = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 django-environ = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.7"
