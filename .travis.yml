@@ -2,4 +2,4 @@ language: python
 services:
   - postgresql
 install: pip install pipenv && pipenv install
-script: pipenv run test
+script: make test
