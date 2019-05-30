@@ -5,6 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 ipdb = "*"
+pytest = "*"
+pytest-django = "*"
 
 [packages]
 django = "*"
