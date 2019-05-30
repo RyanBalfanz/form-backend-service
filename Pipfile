@@ -8,6 +8,7 @@ ipdb = "*"
 pytest = "*"
 pytest-django = "*"
 pylint = "*"
+factory-boy = "*"
 
 [packages]
 django = "*"
