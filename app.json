@@ -19,6 +19,7 @@
     "review": {
       "env": {
         "DJANGO_SETTINGS_MODULE": "formservice.settings_review",
+        "EMAIL_URL": "dummymail://",
         "SECRET_KEY": {
           "generator": "secret"
         }
